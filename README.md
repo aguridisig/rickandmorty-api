@@ -16,3 +16,5 @@ If you want build the docker image and run it locally at a once execute: `docker
 to start and `docker-compose down` to shut down.
 
 Notice that all docker executions need to have docker installed on your system.
+
+Swagger documentation and test: http://127.0.0.1:8080/swagger-ui/index.html#/

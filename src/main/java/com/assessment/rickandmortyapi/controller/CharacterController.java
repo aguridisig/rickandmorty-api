@@ -13,12 +13,11 @@ import com.assessment.rickandmortyapi.service.EpisodeService;
 
 @RestController
 @AllArgsConstructor
-@RequestMapping("/v1")
 public class CharacterController
 {
     private final CharacterService characterService;
     private final EpisodeService episodeService;
-    public static final String PATH = "/search-character-appearance";
+    public static final String PATH = "/v1/search-character-appearance";
 
     @GetMapping(PATH)
     @ResponseStatus( HttpStatus.OK )
