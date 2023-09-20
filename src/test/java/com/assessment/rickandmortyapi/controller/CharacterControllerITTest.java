@@ -12,7 +12,7 @@ import java.util.stream.Stream;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @AutoConfigureWebTestClient
-class CharacterControllerTest {
+class CharacterControllerITTest {
     @Autowired
     WebTestClient webTestClient;
 
